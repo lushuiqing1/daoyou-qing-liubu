@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#ece8d7">
+  <meta name="description" content="道友请留步网页轻体验：交换五色棋子、运用三式，在水墨竹林中连续迎战五只妖物。无需下载，即刻试玩。">
+  <title>道友请留步 · 网页轻体验</title>
+  <link rel="icon" href="assets/status-sword.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="engine.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="game-shell" aria-label="道友请留步战斗轻体验">
+    <header class="game-header">
+      <div class="heading-group">
+        <h1>道友请留步</h1>
+        <button id="stage-progress" class="progress-button" type="button" aria-label="查看接战预告">
+          <span id="chapter">竹林道</span><span class="dot" aria-hidden="true">·</span><span id="wave">1 / 5</span><span class="progress-chevron" aria-hidden="true">›</span>
+        </button>
+      </div>
+      <nav class="tools" aria-label="体验工具">
+        <button id="help" class="tool-button" type="button">规则</button>
+        <button id="restart" class="tool-button" type="button">重开</button>
+        <button id="settings" class="tool-button" type="button">设置</button>
+      </nav>
+    </header>
+
+    <div class="battle-layout">
+      <section class="arena" aria-label="交战双方">
+        <div class="combatants">
+          <button id="player-detail" class="fighter player" type="button" aria-label="查看我方气血和护盾详情">
+            <img id="player-portrait" class="portrait player-portrait" src="assets/player.webp" alt="持剑的青衣修士" draggable="false" width="316" height="700">
+            <div class="fighter-status">
+              <div class="bloodline">
+                <img class="status-heart" src="assets/status-heart.svg" alt="" width="18" height="18">
+                <span class="health-track"><span id="player-health-fill" class="health-fill" style="width:100%"></span></span>
+              </div>
+              <span id="player-health" class="sr-only">气血 100 / 100</span>
+              <div class="combat-metrics">
+                <span><img src="assets/status-sword.svg" alt="攻击" width="18" height="18"><b id="player-attack">4</b></span>
+                <span><img src="assets/status-shield.svg" alt="护盾" width="18" height="18"><b id="player-shield">2</b></span>
+              </div>
+            </div>
+          </button>
+          <span class="crossing-mark" aria-hidden="true">一</span>
+          <button id="enemy-detail" class="fighter enemy" type="button" aria-label="查看敌方气血和护盾详情">
+            <img id="enemy-portrait" class="portrait enemy-portrait" src="assets/enemy.webp" alt="竹林剑傀" draggable="false" width="640" height="640">
+            <div class="fighter-status">
+              <div class="bloodline">
+                <img class="status-heart" src="assets/status-heart.svg" alt="" width="18" height="18">
+                <span class="health-track"><span id="enemy-health-fill" class="health-fill" style="width:100%"></span></span>
+              </div>
+              <span id="enemy-health" class="sr-only">气血 62 / 62</span>
+              <div class="combat-metrics">
+                <span><img src="assets/status-sword.svg" alt="攻击" width="18" height="18"><b id="enemy-attack">14</b></span>
+                <span><img src="assets/status-shield.svg" alt="护盾" width="18" height="18"><b id="enemy-shield">0</b></span>
+              </div>
+            </div>
+          </button>
+        </div>
+        <button id="intent-detail" class="intent-button" type="button" aria-label="查看敌方下次行动">
+          <span class="intent-label">敌方下手</span><strong id="intent">普攻 14</strong><span class="intent-chevron" aria-hidden="true">›</span>
+        </button>
+      </section>
+
+      <section class="resources paper-strip" aria-label="本回合资源">
+        <span class="resource"><span class="resource-label">回合</span><b id="turn">1</b></span>
+        <span class="resource steps-resource"><span class="resource-label">步数</span><b id="steps">4</b></span>
+        <span class="resource mana-resource"><span class="resource-label">灵墨</span><b><span id="mana">3</span><small>/ 7</small></b></span>
+      </section>
+
+      <section class="board-panel" aria-label="五色消除棋盘">
+        <div id="board" class="board" role="grid" aria-label="六行六列棋盘，选择相邻棋子交换"></div>
+        <p class="board-instruction">交换相邻棋子，三枚成线即可消除。</p>
+      </section>
+
+      <section class="spell-panel" aria-label="三式术法">
+        <div id="cards" class="cards"></div>
+        <p id="link-status" class="link-status" aria-live="polite" hidden></p>
+        <p id="card-detail" class="card-detail">点选术式，再确认施放。</p>
+      </section>
+
+      <section class="command-panel" aria-label="战斗操作">
+        <p id="feedback" class="feedback" role="status" aria-live="polite">先消除赤刃攻击，或蓝盾抵挡下次行动。</p>
+        <div class="commands">
+          <button id="hint" class="hint-button" type="button">提示</button>
+          <button id="confirm-cast" class="action-button cast-button" type="button" disabled>确认施放</button>
+          <button id="end-turn" class="action-button end-button" type="button">结束回合</button>
+        </div>
+      </section>
+    </div>
+
+    <footer class="game-footer">
+      <span>网页轻体验 · <span id="preset-name">起始</span></span>
+      <a id="download" href="https://github.com/lushuiqing1/daoyou-qing-liubu/releases/tag/godot-v1.5.0" target="_blank" rel="noopener noreferrer">下载完整版<span aria-hidden="true"> ↗</span></a>
+    </footer>
+    <div id="effects" class="effects" aria-hidden="true"></div>
+  </main>
+  <noscript><p class="noscript">请启用浏览器 JavaScript 后开始轻体验。</p></noscript>
+</body>
+</html>
