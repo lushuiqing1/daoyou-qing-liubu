@@ -1,0 +1,678 @@
+{
+  "cards": [
+    {
+      "id": "sword",
+      "name": "剑气诀",
+      "glyph": "斩",
+      "type": "attack",
+      "cost": 3,
+      "text": "造成30点伤害，精英战额外+5；随攻击成长。",
+      "damage": 30,
+      "scale": true
+    },
+    {
+      "id": "armorBreak",
+      "name": "破甲符",
+      "glyph": "破",
+      "type": "attack",
+      "cost": 2,
+      "text": "无视护盾造成10点伤害，移除6点敌方护盾。",
+      "damage": 10
+    },
+    {
+      "id": "ward",
+      "name": "金刚罩",
+      "glyph": "守",
+      "type": "defense",
+      "cost": 2,
+      "text": "获得最大气血30%的护盾。",
+      "shieldRatio": 0.3
+    },
+    {
+      "id": "heal",
+      "name": "回春丹",
+      "glyph": "愈",
+      "type": "heal",
+      "cost": 1,
+      "text": "恢复最大气血25%的生命。",
+      "healRatio": 0.25
+    },
+    {
+      "id": "step",
+      "name": "神行步",
+      "glyph": "行",
+      "type": "utility",
+      "cost": 1,
+      "text": "获得10点护盾。",
+      "shield": 10
+    },
+    {
+      "id": "comboOrder",
+      "name": "连击令",
+      "glyph": "令",
+      "type": "utility",
+      "cost": 3,
+      "text": "接下来2次消除，红色攻击额外+10。"
+    },
+    {
+      "id": "thunder",
+      "name": "天雷引",
+      "glyph": "雷",
+      "type": "attack",
+      "cost": 5,
+      "text": "引动天雷，造成50点伤害。",
+      "damage": 50
+    },
+    {
+      "id": "spiritArray",
+      "name": "聚灵阵",
+      "glyph": "阵",
+      "type": "utility",
+      "cost": 2,
+      "text": "造成16点伤害，恢复12点气血。",
+      "damage": 16,
+      "heal": 12
+    },
+    {
+      "id": "flame",
+      "name": "焚风诀",
+      "glyph": "焚",
+      "type": "attack",
+      "cost": 2,
+      "text": "造成32点伤害，随攻击成长。",
+      "damage": 32,
+      "scale": true
+    },
+    {
+      "id": "golden",
+      "name": "金蝉脱壳",
+      "glyph": "蝉",
+      "type": "utility",
+      "cost": 2,
+      "text": "恢复15点气血，获得15点护盾。",
+      "heal": 15,
+      "shield": 15
+    },
+    {
+      "id": "ironwall",
+      "name": "金刚符",
+      "glyph": "刚",
+      "type": "defense",
+      "cost": 2,
+      "text": "立即获得26点护盾。",
+      "shield": 26
+    }
+  ],
+  "treasures": [
+    {
+      "id": "qingming",
+      "name": "青冥剑",
+      "glyph": "剑",
+      "price": 45,
+      "art": "qingming-sword",
+      "text": "每枚红色方块的攻击力+3。"
+    },
+    {
+      "id": "robe",
+      "name": "云鹤道袍",
+      "glyph": "袍",
+      "price": 40,
+      "art": "yunhe-robe",
+      "text": "受到的伤害减少3点。"
+    },
+    {
+      "id": "revive",
+      "name": "还魂丹",
+      "glyph": "丹",
+      "price": 45,
+      "art": "revive-pill",
+      "text": "本轮首次阵亡时，以50%最大气血复活。"
+    },
+    {
+      "id": "ice",
+      "name": "玄冰珠",
+      "glyph": "珠",
+      "price": 45,
+      "art": "xuanbing-orb",
+      "text": "本轮最大气血+50，购买时恢复50点气血。"
+    },
+    {
+      "id": "swordArt",
+      "name": "御剑诀",
+      "glyph": "御",
+      "price": 55,
+      "art": "yujianjue",
+      "text": "每回合基础步数+1。"
+    },
+    {
+      "id": "aura",
+      "name": "灵气丹",
+      "glyph": "气",
+      "price": 40,
+      "art": "lingqi-pill",
+      "text": "卡牌消耗灵墨-1，最低1；购买时回满气血。"
+    },
+    {
+      "id": "jade",
+      "name": "聚灵玉佩",
+      "glyph": "佩",
+      "price": 35,
+      "art": "juling-jade",
+      "text": "每场战斗的初始灵墨+1。"
+    },
+    {
+      "id": "incense",
+      "name": "清心香炉",
+      "glyph": "香",
+      "price": 40,
+      "art": "qingxin-incense",
+      "text": "每枚绿色方块额外恢复2点生命。"
+    },
+    {
+      "id": "map",
+      "name": "秘境图",
+      "glyph": "图",
+      "price": 50,
+      "art": "secret-map",
+      "text": "每枚黄色方块额外获得3枚铜钱。"
+    }
+  ],
+  "items": [
+    {
+      "id": "wood_sword",
+      "name": "桃木剑",
+      "glyph": "剑",
+      "kind": "equipment",
+      "slot": "weapon",
+      "quality": "凡品",
+      "count": 1,
+      "text": "装备后攻击+1。"
+    },
+    {
+      "id": "cloth",
+      "name": "粗布衣",
+      "glyph": "衣",
+      "kind": "equipment",
+      "slot": "armor",
+      "quality": "凡品",
+      "count": 1,
+      "text": "每回合开始时获得2点护盾。"
+    },
+    {
+      "id": "jade",
+      "name": "古玉佩",
+      "glyph": "佩",
+      "kind": "equipment",
+      "slot": "accessory",
+      "quality": "上品",
+      "count": 1,
+      "text": "每回合开始时恢复1点灵墨。"
+    },
+    {
+      "id": "spring_pill",
+      "name": "回春散",
+      "glyph": "丹",
+      "kind": "consumable",
+      "quality": "良品",
+      "count": 3,
+      "price": 18,
+      "text": "恢复24点生命，满血时不可使用。"
+    },
+    {
+      "id": "spirit_stone",
+      "name": "聚灵石",
+      "glyph": "灵",
+      "kind": "material",
+      "quality": "稀有",
+      "count": 8,
+      "text": "蕴含清灵之气的石料，可出售换取铜钱。"
+    },
+    {
+      "id": "cloud_talisman",
+      "name": "踏云符",
+      "glyph": "符",
+      "kind": "consumable",
+      "quality": "良品",
+      "count": 2,
+      "price": 20,
+      "text": "战斗中使用，本回合增加2步。"
+    },
+    {
+      "id": "jade_shard",
+      "name": "青玉碎片",
+      "glyph": "玉",
+      "kind": "material",
+      "quality": "凡品",
+      "count": 12,
+      "text": "山中拾得的青玉碎片，可出售换取铜钱。"
+    },
+    {
+      "id": "ink_scroll",
+      "name": "墨灵卷",
+      "glyph": "卷",
+      "kind": "material",
+      "quality": "上品",
+      "count": 4,
+      "text": "记载古老术式的残卷，可出售换取铜钱。"
+    },
+    {
+      "id": "golden_gourd",
+      "name": "聚宝葫",
+      "glyph": "葫",
+      "kind": "consumable",
+      "quality": "珍品",
+      "count": 1,
+      "text": "使用后获得60枚铜钱。"
+    },
+    {
+      "id": "iron_token",
+      "name": "玄铁令",
+      "glyph": "令",
+      "kind": "material",
+      "quality": "稀有",
+      "count": 5,
+      "text": "旧时秘境的玄铁凭信，可出售换取铜钱。"
+    }
+  ],
+  "realms": [
+    {
+      "name": "炼气一层",
+      "cost": 20,
+      "hp": 10,
+      "attack": 1,
+      "armor": 0
+    },
+    {
+      "name": "炼气二层",
+      "cost": 35,
+      "hp": 10,
+      "attack": 1,
+      "armor": 1
+    },
+    {
+      "name": "炼气三层",
+      "cost": 55,
+      "hp": 15,
+      "attack": 2,
+      "armor": 1
+    },
+    {
+      "name": "炼气四层",
+      "cost": 80,
+      "hp": 15,
+      "attack": 2,
+      "armor": 1
+    },
+    {
+      "name": "炼气五层",
+      "cost": 120,
+      "hp": 20,
+      "attack": 3,
+      "armor": 2
+    },
+    {
+      "name": "炼气六层",
+      "cost": 170,
+      "hp": 20,
+      "attack": 3,
+      "armor": 2
+    },
+    {
+      "name": "炼气七层",
+      "cost": 230,
+      "hp": 25,
+      "attack": 4,
+      "armor": 2
+    },
+    {
+      "name": "炼气八层",
+      "cost": 300,
+      "hp": 25,
+      "attack": 4,
+      "armor": 3
+    },
+    {
+      "name": "炼气九层",
+      "cost": 400,
+      "hp": 40,
+      "attack": 5,
+      "armor": 4
+    },
+    {
+      "name": "筑基初期",
+      "cost": null,
+      "hp": 0,
+      "attack": 0,
+      "armor": 0
+    }
+  ],
+  "chapters": [
+    {
+      "name": "竹林道",
+      "line": "竹影摇风，初入江湖。",
+      "boss": "山魈",
+      "hp": 55,
+      "damage": 9,
+      "reward": 26,
+      "first": "孤竹客",
+      "left": "竹篙客",
+      "right": "雾伥斥候",
+      "shop": "茶婆",
+      "color": "#496654"
+    },
+    {
+      "name": "古驿迷雾",
+      "line": "灯火将阑，古驿无声。",
+      "boss": "雾隐伥鬼",
+      "hp": 78,
+      "damage": 12,
+      "reward": 42,
+      "first": "驿卒",
+      "left": "夜行客",
+      "right": "伥鬼斥候",
+      "shop": "驿商",
+      "color": "#526573"
+    },
+    {
+      "name": "枫火坡",
+      "line": "霜叶如火，剑意渐成。",
+      "boss": "赤羽妖狐",
+      "hp": 96,
+      "damage": 14,
+      "reward": 56,
+      "first": "枫林客",
+      "left": "枫火客",
+      "right": "赤尾狐",
+      "shop": "坡商",
+      "color": "#9c5542"
+    },
+    {
+      "name": "沉月潭",
+      "line": "一剑照水，沉月见明。",
+      "boss": "墨渊龙君",
+      "hp": 138,
+      "damage": 17,
+      "reward": 100,
+      "first": "沉夜客",
+      "left": "月下客",
+      "right": "玄鳞卫",
+      "shop": "潭商",
+      "color": "#52616d"
+    }
+  ],
+  "combat": {
+    "version": 1,
+    "chapters": [
+      {
+        "hp": 240,
+        "attack": 55
+      },
+      {
+        "hp": 360,
+        "attack": 77
+      },
+      {
+        "hp": 500,
+        "attack": 99
+      },
+      {
+        "hp": 740,
+        "attack": 127
+      }
+    ],
+    "healthScale": {
+      "f1": 0.9,
+      "f2": 1,
+      "f3": 1.1,
+      "elite": 1.45,
+      "boss": 1.9
+    },
+    "attackScale": {
+      "battle": 1,
+      "elite": 1.2,
+      "boss": 1.4
+    },
+    "guardRatio": 0.12,
+    "heavyRatio": 1.8,
+    "enragedRatio": 2.2,
+    "patterns": {
+      "battle": [
+        "attack",
+        "charge",
+        "heavy"
+      ],
+      "elite": [
+        "guard",
+        "attack",
+        "charge",
+        "heavy"
+      ],
+      "boss": [
+        "attack",
+        "guard",
+        "charge",
+        "heavy"
+      ]
+    }
+  },
+  "enemyArt": [
+    {
+      "id": "bamboo-puppet",
+      "name": "竹林剑傀",
+      "chapter": 0,
+      "role": "游荡妖物",
+      "file": "assets/enemies/bamboo-puppet.png",
+      "text": "残竹成骨，草绳系身，斗笠下藏着一缕青光。"
+    },
+    {
+      "id": "mountain-beast",
+      "name": "山魈",
+      "chapter": 0,
+      "role": "守境首领",
+      "file": "assets/enemy-portrait.png",
+      "text": "墨鬃披山，角似枯枝，伏身守住竹林深处。"
+    },
+    {
+      "id": "lantern-wraith",
+      "name": "驿路灯魇",
+      "chapter": 1,
+      "role": "游荡妖物",
+      "file": "assets/enemies/lantern-wraith.png",
+      "text": "破袍遮面，青灯引路，灯下却没有人的影子。"
+    },
+    {
+      "id": "mist-lord",
+      "name": "雾隐伥鬼",
+      "chapter": 1,
+      "role": "守境首领",
+      "file": "assets/enemies/mist-lord.png",
+      "text": "古面覆霜，铜铃招雾，残袍化作流动的墨。"
+    },
+    {
+      "id": "fox-guard",
+      "name": "赤尾狐卫",
+      "chapter": 2,
+      "role": "游荡妖物",
+      "file": "assets/enemies/fox-guard.png",
+      "text": "赤尾扫叶，旧甲藏锋，身形轻捷如一缕秋火。"
+    },
+    {
+      "id": "scarlet-fox",
+      "name": "赤羽妖狐",
+      "chapter": 2,
+      "role": "守境首领",
+      "file": "assets/enemies/scarlet-fox.png",
+      "text": "三尾如羽，赤毛染枫，低伏的身形藏着杀意。"
+    },
+    {
+      "id": "scale-guard",
+      "name": "玄鳞卫",
+      "chapter": 3,
+      "role": "游荡妖物",
+      "file": "assets/enemies/scale-guard.png",
+      "text": "青鳞覆身，古铜生锈，一柄长戟拦住潭前路。"
+    },
+    {
+      "id": "abyss-dragon",
+      "name": "墨渊龙君",
+      "chapter": 3,
+      "role": "守境首领",
+      "file": "assets/enemies/abyss-dragon.png",
+      "text": "墨鬃盘水，青鳞隐月，古老龙影自深潭中显形。"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "f1",
+      "level": 0,
+      "type": "battle",
+      "label": "首战",
+      "scale": 0.68,
+      "edges": [
+        "shop",
+        "event"
+      ]
+    },
+    {
+      "id": "shop",
+      "level": 1,
+      "type": "shop",
+      "label": "行商",
+      "edges": [
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "id": "event",
+      "level": 1,
+      "type": "event",
+      "label": "山中奇遇",
+      "edges": [
+        "f2",
+        "f3"
+      ]
+    },
+    {
+      "id": "f2",
+      "level": 2,
+      "type": "battle",
+      "label": "左路",
+      "scale": 0.82,
+      "edges": [
+        "elite"
+      ]
+    },
+    {
+      "id": "f3",
+      "level": 2,
+      "type": "battle",
+      "label": "右路",
+      "scale": 0.92,
+      "edges": [
+        "elite"
+      ]
+    },
+    {
+      "id": "elite",
+      "level": 3,
+      "type": "elite",
+      "label": "精英",
+      "scale": 1.08,
+      "edges": [
+        "boss"
+      ]
+    },
+    {
+      "id": "boss",
+      "level": 4,
+      "type": "boss",
+      "label": "首领",
+      "scale": 1,
+      "edges": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "win",
+      "name": "初试锋芒",
+      "text": "赢得一场战斗",
+      "reward": 20
+    },
+    {
+      "id": "equip",
+      "name": "整装待发",
+      "text": "装备或更换一件装备",
+      "reward": 20
+    },
+    {
+      "id": "cultivate",
+      "name": "叩问长生",
+      "text": "完成一次修炼突破",
+      "reward": 30
+    },
+    {
+      "id": "chapter",
+      "name": "山外有山",
+      "text": "通关任意一个章节",
+      "reward": 50
+    }
+  ],
+  "types": [
+    "red",
+    "green",
+    "blue",
+    "yellow",
+    "purple"
+  ],
+  "tiles": {
+    "red": {
+      "name": "赤刃",
+      "glyph": "刃",
+      "asset": "sword",
+      "effect": "攻击"
+    },
+    "green": {
+      "name": "青木",
+      "glyph": "生",
+      "asset": "heart",
+      "effect": "恢复"
+    },
+    "blue": {
+      "name": "玄水",
+      "glyph": "甲",
+      "asset": "shield",
+      "effect": "护盾"
+    },
+    "yellow": {
+      "name": "金铢",
+      "glyph": "钱",
+      "asset": "coin",
+      "effect": "铜钱"
+    },
+    "purple": {
+      "name": "紫灵",
+      "glyph": "术",
+      "asset": "scroll",
+      "effect": "灵墨"
+    }
+  },
+  "sellPrices": {
+    "凡品": 4,
+    "良品": 8,
+    "上品": 12,
+    "稀有": 20,
+    "珍品": 30
+  },
+  "initialDeck": [
+    "sword",
+    "ward",
+    "heal"
+  ],
+  "initialCollection": [
+    "sword",
+    "ward",
+    "heal",
+    "step"
+  ]
+}
