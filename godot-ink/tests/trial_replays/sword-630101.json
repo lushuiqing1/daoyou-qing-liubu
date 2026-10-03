@@ -1,0 +1,179 @@
+{
+  "config": {
+    "chapter": 0,
+    "deck": [
+      "sword",
+      "comboOrder",
+      "step"
+    ],
+    "id": "sword",
+    "minimum": 2,
+    "realm": 5,
+    "seed": 630101,
+    "target": "sword",
+    "treasures": [
+      "qingming"
+    ]
+  },
+  "actions": [
+    {
+      "a": 3,
+      "b": 9,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "a": 14,
+      "b": 20,
+      "type": "swap"
+    },
+    {
+      "a": 18,
+      "b": 19,
+      "type": "swap"
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "a": 2,
+      "b": 8,
+      "type": "swap"
+    },
+    {
+      "a": 8,
+      "b": 14,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 21,
+      "b": 22,
+      "type": "swap"
+    },
+    {
+      "a": 2,
+      "b": 8,
+      "type": "swap"
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "type": "swap"
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "a": 28,
+      "b": 29,
+      "type": "swap"
+    },
+    {
+      "a": 17,
+      "b": 23,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "a": 34,
+      "b": 35,
+      "type": "swap"
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "a": 13,
+      "b": 14,
+      "type": "swap"
+    },
+    {
+      "a": 22,
+      "b": 28,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "type": "swap"
+    }
+  ],
+  "expectedSummary": {
+    "blocked": 26,
+    "casts": {
+      "sword": 8
+    },
+    "coverage": "full",
+    "damage": 737,
+    "deck": [
+      "sword",
+      "comboOrder",
+      "step"
+    ],
+    "enemyShieldRemoved": 0,
+    "fatal": {},
+    "healed": 15,
+    "hpLost": 15,
+    "kind": "active",
+    "links": {
+      "purple": 0,
+      "sword": 4,
+      "ward": 0
+    },
+    "manaOverflow": 0,
+    "maxChain": 3,
+    "moves": 17,
+    "refundSteps": 4,
+    "shieldExpired": 28,
+    "startChapter": 0,
+    "startWave": 1
+  },
+  "finalRng": 1160756840,
+  "finalSeq": 132,
+  "method": "Original rules3 legal-dispatch trace; initialize product TrialSession, never inject init state."
+}

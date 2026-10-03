@@ -1,0 +1,546 @@
+{
+  "config": {
+    "chapter": 1,
+    "deck": [
+      "ward",
+      "ironwall",
+      "golden"
+    ],
+    "id": "guard",
+    "minimum": 3,
+    "realm": 5,
+    "seed": 630102,
+    "target": "ward",
+    "treasures": []
+  },
+  "actions": [
+    {
+      "a": 21,
+      "b": 22,
+      "type": "swap"
+    },
+    {
+      "a": 9,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "type": "swap"
+    },
+    {
+      "a": 14,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "a": 22,
+      "b": 28,
+      "type": "swap"
+    },
+    {
+      "a": 26,
+      "b": 32,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 7,
+      "b": 13,
+      "type": "swap"
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "type": "swap"
+    },
+    {
+      "a": 16,
+      "b": 17,
+      "type": "swap"
+    },
+    {
+      "a": 28,
+      "b": 29,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "type": "swap"
+    },
+    {
+      "a": 15,
+      "b": 16,
+      "type": "swap"
+    },
+    {
+      "a": 22,
+      "b": 23,
+      "type": "swap"
+    },
+    {
+      "a": 26,
+      "b": 27,
+      "type": "swap"
+    },
+    {
+      "a": 34,
+      "b": 35,
+      "type": "swap"
+    },
+    {
+      "a": 13,
+      "b": 14,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "type": "swap"
+    },
+    {
+      "a": 10,
+      "b": 16,
+      "type": "swap"
+    },
+    {
+      "a": 14,
+      "b": 20,
+      "type": "swap"
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 8,
+      "b": 14,
+      "type": "swap"
+    },
+    {
+      "a": 9,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "a": 20,
+      "b": 26,
+      "type": "swap"
+    },
+    {
+      "a": 13,
+      "b": 14,
+      "type": "swap"
+    },
+    {
+      "a": 8,
+      "b": 14,
+      "type": "swap"
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 2,
+      "b": 8,
+      "type": "swap"
+    },
+    {
+      "a": 30,
+      "b": 31,
+      "type": "swap"
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "type": "swap"
+    },
+    {
+      "a": 14,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "type": "swap"
+    },
+    {
+      "a": 2,
+      "b": 8,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "type": "swap"
+    },
+    {
+      "a": 12,
+      "b": 13,
+      "type": "swap"
+    },
+    {
+      "a": 14,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "a": 21,
+      "b": 27,
+      "type": "swap"
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "type": "swap"
+    },
+    {
+      "a": 16,
+      "b": 17,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "type": "swap"
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "type": "swap"
+    },
+    {
+      "a": 14,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 9,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "type": "swap"
+    },
+    {
+      "a": 9,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "a": 13,
+      "b": 19,
+      "type": "swap"
+    },
+    {
+      "a": 9,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 3,
+      "b": 9,
+      "type": "swap"
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "type": "swap"
+    },
+    {
+      "a": 7,
+      "b": 13,
+      "type": "swap"
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "type": "swap"
+    },
+    {
+      "a": 9,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 3,
+      "b": 9,
+      "type": "swap"
+    },
+    {
+      "a": 9,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "a": 8,
+      "b": 14,
+      "type": "swap"
+    },
+    {
+      "a": 16,
+      "b": 17,
+      "type": "swap"
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "type": "swap"
+    },
+    {
+      "a": 4,
+      "b": 10,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "type": "swap"
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "type": "swap"
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "type": "swap"
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 2,
+      "b": 8,
+      "type": "swap"
+    },
+    {
+      "a": 5,
+      "b": 11,
+      "type": "swap"
+    },
+    {
+      "a": 12,
+      "b": 13,
+      "type": "swap"
+    },
+    {
+      "a": 18,
+      "b": 19,
+      "type": "swap"
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 4,
+      "b": 10,
+      "type": "swap"
+    },
+    {
+      "a": 8,
+      "b": 14,
+      "type": "swap"
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "type": "swap"
+    },
+    {
+      "a": 13,
+      "b": 14,
+      "type": "swap"
+    },
+    {
+      "a": 15,
+      "b": 21,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 2,
+      "b": 8,
+      "type": "swap"
+    },
+    {
+      "a": 13,
+      "b": 14,
+      "type": "swap"
+    },
+    {
+      "a": 13,
+      "b": 19,
+      "type": "swap"
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "type": "swap"
+    },
+    {
+      "a": 15,
+      "b": 21,
+      "type": "swap"
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 9,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "type": "swap"
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "type": "swap"
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "type": "swap"
+    },
+    {
+      "a": 21,
+      "b": 27,
+      "type": "swap"
+    }
+  ],
+  "expectedSummary": {
+    "blocked": 184,
+    "casts": {
+      "ironwall": 3,
+      "ward": 2
+    },
+    "coverage": "full",
+    "damage": 1206,
+    "deck": [
+      "ward",
+      "ironwall",
+      "golden"
+    ],
+    "enemyShieldRemoved": 304,
+    "fatal": {},
+    "healed": 61,
+    "hpLost": 65,
+    "kind": "active",
+    "links": {
+      "purple": 0,
+      "sword": 0,
+      "ward": 3
+    },
+    "manaOverflow": 104,
+    "maxChain": 6,
+    "moves": 84,
+    "refundSteps": 20,
+    "shieldExpired": 236,
+    "startChapter": 1,
+    "startWave": 1
+  },
+  "finalRng": 1676754467,
+  "finalSeq": 562,
+  "method": "Original rules3 legal-dispatch trace; initialize product TrialSession, never inject init state."
+}

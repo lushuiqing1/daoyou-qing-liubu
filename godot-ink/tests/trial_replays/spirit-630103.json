@@ -1,0 +1,262 @@
+{
+  "config": {
+    "chapter": 2,
+    "deck": [
+      "spiritArray",
+      "flame",
+      "heal"
+    ],
+    "id": "spirit",
+    "minimum": 3,
+    "realm": 6,
+    "seed": 630103,
+    "target": "purple",
+    "treasures": [
+      "aura"
+    ]
+  },
+  "actions": [
+    {
+      "a": 26,
+      "b": 27,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "a": 22,
+      "b": 28,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "a": 8,
+      "b": 14,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "a": 21,
+      "b": 27,
+      "type": "swap"
+    },
+    {
+      "a": 15,
+      "b": 21,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 21,
+      "b": 22,
+      "type": "swap"
+    },
+    {
+      "a": 28,
+      "b": 29,
+      "type": "swap"
+    },
+    {
+      "a": 14,
+      "b": 20,
+      "type": "swap"
+    },
+    {
+      "a": 28,
+      "b": 34,
+      "type": "swap"
+    },
+    {
+      "a": 7,
+      "b": 8,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "a": 3,
+      "b": 9,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "a": 14,
+      "b": 20,
+      "type": "swap"
+    },
+    {
+      "a": 2,
+      "b": 8,
+      "type": "swap"
+    },
+    {
+      "a": 13,
+      "b": 19,
+      "type": "swap"
+    },
+    {
+      "a": 1,
+      "b": 7,
+      "type": "swap"
+    },
+    {
+      "a": 9,
+      "b": 10,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "type": "swap"
+    },
+    {
+      "a": 10,
+      "b": 11,
+      "type": "swap"
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "type": "swap"
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    }
+  ],
+  "expectedSummary": {
+    "blocked": 44,
+    "casts": {
+      "flame": 20,
+      "spiritArray": 4
+    },
+    "coverage": "full",
+    "damage": 1876,
+    "deck": [
+      "spiritArray",
+      "flame",
+      "heal"
+    ],
+    "enemyShieldRemoved": 0,
+    "fatal": {},
+    "healed": 55,
+    "hpLost": 58,
+    "kind": "active",
+    "links": {
+      "purple": 4,
+      "sword": 0,
+      "ward": 0
+    },
+    "manaOverflow": 1,
+    "maxChain": 3,
+    "moves": 20,
+    "refundSteps": 4,
+    "shieldExpired": 14,
+    "startChapter": 2,
+    "startWave": 1
+  },
+  "finalRng": 3175587021,
+  "finalSeq": 193,
+  "method": "Original rules3 legal-dispatch trace; initialize product TrialSession, never inject init state."
+}

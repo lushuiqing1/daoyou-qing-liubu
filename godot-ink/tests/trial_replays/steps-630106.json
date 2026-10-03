@@ -1,0 +1,182 @@
+{
+  "config": {
+    "chapter": 0,
+    "deck": [
+      "sword",
+      "ward",
+      "heal"
+    ],
+    "id": "steps",
+    "maximum": 32,
+    "realm": 5,
+    "seed": 630106,
+    "target": "moves",
+    "treasures": [
+      "qingming",
+      "aura",
+      "swordArt"
+    ]
+  },
+  "actions": [
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "a": 28,
+      "b": 34,
+      "type": "swap"
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "a": 12,
+      "b": 13,
+      "type": "swap"
+    },
+    {
+      "a": 19,
+      "b": 20,
+      "type": "swap"
+    },
+    {
+      "a": 14,
+      "b": 20,
+      "type": "swap"
+    },
+    {
+      "a": 12,
+      "b": 13,
+      "type": "swap"
+    },
+    {
+      "a": 21,
+      "b": 27,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 20,
+      "b": 21,
+      "type": "swap"
+    },
+    {
+      "a": 14,
+      "b": 20,
+      "type": "swap"
+    },
+    {
+      "a": 1,
+      "b": 7,
+      "type": "swap"
+    },
+    {
+      "a": 12,
+      "b": 13,
+      "type": "swap"
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "type": "swap"
+    },
+    {
+      "a": 14,
+      "b": 20,
+      "type": "swap"
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 9,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 39
+    }
+  ],
+  "expectedSummary": {
+    "blocked": 30,
+    "casts": {
+      "sword": 9,
+      "ward": 1
+    },
+    "coverage": "full",
+    "damage": 737,
+    "deck": [
+      "sword",
+      "ward",
+      "heal"
+    ],
+    "enemyShieldRemoved": 0,
+    "fatal": {},
+    "healed": 0,
+    "hpLost": 0,
+    "kind": "active",
+    "links": {
+      "purple": 0,
+      "sword": 2,
+      "ward": 0
+    },
+    "manaOverflow": 0,
+    "maxChain": 3,
+    "moves": 16,
+    "refundSteps": 4,
+    "shieldExpired": 76,
+    "startChapter": 0,
+    "startWave": 1
+  },
+  "finalRng": 3070158364,
+  "finalSeq": 134,
+  "method": "Original rules3 legal-dispatch trace; initialize product TrialSession, never inject init state."
+}

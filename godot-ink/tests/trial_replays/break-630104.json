@@ -1,0 +1,263 @@
+{
+  "config": {
+    "chapter": 1,
+    "deck": [
+      "armorBreak",
+      "sword",
+      "heal"
+    ],
+    "id": "break",
+    "minimum": 36,
+    "realm": 5,
+    "seed": 630104,
+    "target": "enemyShieldRemoved",
+    "treasures": []
+  },
+  "actions": [
+    {
+      "a": 20,
+      "b": 26,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "a": 22,
+      "b": 23,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "type": "swap"
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "a": 25,
+      "b": 31,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 12,
+      "b": 13,
+      "type": "swap"
+    },
+    {
+      "a": 16,
+      "b": 22,
+      "type": "swap"
+    },
+    {
+      "a": 20,
+      "b": 21,
+      "type": "swap"
+    },
+    {
+      "a": 22,
+      "b": 23,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "a": 8,
+      "b": 9,
+      "type": "swap"
+    },
+    {
+      "a": 9,
+      "b": 15,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 3,
+      "b": 9,
+      "type": "swap"
+    },
+    {
+      "a": 10,
+      "b": 16,
+      "type": "swap"
+    },
+    {
+      "a": 16,
+      "b": 17,
+      "type": "swap"
+    },
+    {
+      "a": 11,
+      "b": 17,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "a": 21,
+      "b": 22,
+      "type": "swap"
+    },
+    {
+      "a": 10,
+      "b": 16,
+      "type": "swap"
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 10,
+      "b": 16,
+      "type": "swap"
+    },
+    {
+      "a": 15,
+      "b": 21,
+      "type": "swap"
+    },
+    {
+      "a": 19,
+      "b": 20,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "a": 4,
+      "b": 5,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "a": 6,
+      "b": 12,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 39
+    },
+    {
+      "type": "endTurn"
+    },
+    {
+      "a": 26,
+      "b": 32,
+      "type": "swap"
+    },
+    {
+      "a": 20,
+      "b": 21,
+      "type": "swap"
+    },
+    {
+      "a": 27,
+      "b": 28,
+      "type": "swap"
+    },
+    {
+      "a": 21,
+      "b": 27,
+      "type": "swap"
+    },
+    {
+      "type": "card",
+      "uid": 40
+    },
+    {
+      "type": "card",
+      "uid": 40
+    }
+  ],
+  "expectedSummary": {
+    "blocked": 0,
+    "casts": {
+      "armorBreak": 2,
+      "sword": 14
+    },
+    "coverage": "full",
+    "damage": 1206,
+    "deck": [
+      "armorBreak",
+      "sword",
+      "heal"
+    ],
+    "enemyShieldRemoved": 129,
+    "fatal": {},
+    "healed": 0,
+    "hpLost": 0,
+    "kind": "active",
+    "links": {
+      "purple": 0,
+      "sword": 7,
+      "ward": 0
+    },
+    "manaOverflow": 0,
+    "maxChain": 4,
+    "moves": 27,
+    "refundSteps": 9,
+    "shieldExpired": 63,
+    "startChapter": 1,
+    "startWave": 1
+  },
+  "finalRng": 1969422120,
+  "finalSeq": 221,
+  "method": "Original rules3 legal-dispatch trace; initialize product TrialSession, never inject init state."
+}
